@@ -1,0 +1,249 @@
+2025-02-09 04:25:27,609 ERROR frappe New Exception collected in error log
+Site: project-management
+Form Dict: {'cmd': 'project_management_app.api.create_task'}
+2025-02-09 04:28:45,087 ERROR frappe Could not take error snapshot: 'str' object has no attribute 'api'
+Site: project-management
+Form Dict: {}
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/caching.py", line 62, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/app.py", line 96, in application
+    init_request(request)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/app.py", line 198, in init_request
+    for before_request_task in frappe.get_hooks("before_request"):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1571, in get_hooks
+    hooks = _load_app_hooks()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/caching.py", line 64, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1540, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1406, in get_module
+    return importlib.import_module(modulename)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/project_management_app/project_management_app/hooks.py", line 252, in <module>
+    app_name.api.create_task = "project_management_app.api.create_task"
+AttributeError: 'str' object has no attribute 'api'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/caching.py", line 62, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/error.py", line 87, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/error.py", line 62, in log_error
+    error_log = frappe.get_doc(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1263, in get_doc
+    return frappe.model.document.get_doc(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/model/utils/__init__.py", line 214, in wrapper
+    return func(*args, **kw)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/model/document.py", line 70, in get_doc
+    return get_doc_from_dict(kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/model/document.py", line 104, in get_doc_from_dict
+    controller = get_controller(data["doctype"])
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/model/base_document.py", line 68, in get_controller
+    return import_controller(doctype)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/model/base_document.py", line 90, in import_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1571, in get_hooks
+    hooks = _load_app_hooks()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/caching.py", line 64, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1540, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1406, in get_module
+    return importlib.import_module(modulename)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/project_management_app/project_management_app/hooks.py", line 252, in <module>
+    app_name.api.create_task = "project_management_app.api.create_task"
+AttributeError: 'str' object has no attribute 'api'
+2025-02-09 04:28:45,090 ERROR frappe Failed to run after request hook
+Site: project-management
+Form Dict: {}
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/caching.py", line 62, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/app.py", line 147, in application
+    run_after_request_hooks(request, response)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/app.py", line 162, in run_after_request_hooks
+    for after_request_task in frappe.get_hooks("after_request"):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1571, in get_hooks
+    hooks = _load_app_hooks()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/caching.py", line 64, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1540, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1406, in get_module
+    return importlib.import_module(modulename)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/project_management_app/project_management_app/hooks.py", line 252, in <module>
+    app_name.api.create_task = "project_management_app.api.create_task"
+AttributeError: 'str' object has no attribute 'api'
+2025-02-09 04:30:03,880 ERROR frappe Could not take error snapshot: 'str' object has no attribute 'api'
+Site: project-management
+Form Dict: {}
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/caching.py", line 62, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/app.py", line 96, in application
+    init_request(request)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/app.py", line 198, in init_request
+    for before_request_task in frappe.get_hooks("before_request"):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1571, in get_hooks
+    hooks = _load_app_hooks()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/caching.py", line 64, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1540, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1406, in get_module
+    return importlib.import_module(modulename)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/project_management_app/project_management_app/hooks.py", line 252, in <module>
+    app_name.api.create_task = "project_management_app.api.create_task"
+AttributeError: 'str' object has no attribute 'api'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/caching.py", line 62, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/error.py", line 87, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/error.py", line 62, in log_error
+    error_log = frappe.get_doc(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1263, in get_doc
+    return frappe.model.document.get_doc(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/model/utils/__init__.py", line 214, in wrapper
+    return func(*args, **kw)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/model/document.py", line 70, in get_doc
+    return get_doc_from_dict(kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/model/document.py", line 104, in get_doc_from_dict
+    controller = get_controller(data["doctype"])
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/model/base_document.py", line 68, in get_controller
+    return import_controller(doctype)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/model/base_document.py", line 90, in import_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1571, in get_hooks
+    hooks = _load_app_hooks()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/caching.py", line 64, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1540, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1406, in get_module
+    return importlib.import_module(modulename)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/project_management_app/project_management_app/hooks.py", line 252, in <module>
+    app_name.api.create_task = "project_management_app.api.create_task"
+AttributeError: 'str' object has no attribute 'api'
+2025-02-09 04:30:03,890 ERROR frappe Failed to run after request hook
+Site: project-management
+Form Dict: {}
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/caching.py", line 62, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/app.py", line 147, in application
+    run_after_request_hooks(request, response)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/app.py", line 162, in run_after_request_hooks
+    for after_request_task in frappe.get_hooks("after_request"):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1571, in get_hooks
+    hooks = _load_app_hooks()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/caching.py", line 64, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1540, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/__init__.py", line 1406, in get_module
+    return importlib.import_module(modulename)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/project_management_app/project_management_app/hooks.py", line 252, in <module>
+    app_name.api.create_task = "project_management_app.api.create_task"
+AttributeError: 'str' object has no attribute 'api'
+2025-02-09 04:32:56,872 ERROR frappe New Exception collected in error log
+Site: project-management
+Form Dict: {'cmd': 'project_management_app.api.create_task'}
+2025-02-09 04:35:44,102 ERROR frappe New Exception collected in error log
+Site: project-management
+Form Dict: {'cmd': 'project_management_app.api.create_task'}
+2025-02-09 04:36:57,418 ERROR frappe New Exception collected in error log
+Site: project-management
+Form Dict: {'cmd': 'project_management_app.api.create_task'}
+2025-02-09 04:37:00,176 ERROR frappe New Exception collected in error log
+Site: project-management
+Form Dict: {'cmd': 'project_management_app.api.create_task'}
+2025-02-09 04:42:19,792 ERROR frappe New Exception collected in error log
+Site: project-management
+Form Dict: {'cmd': 'project_management_app.api.create_task'}
+2025-02-09 04:51:05,524 ERROR frappe New Exception collected in error log
+Site: project-management
+Form Dict: {'cmd': 'frappe.www.login.send_login_link', 'email': 'femio82@gmail.com'}

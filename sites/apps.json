@@ -1,0 +1,31 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "16.0.0-dev"
+    },
+    "frappe_test_app": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "134b2391243849262e0592455f39ac8bb43a2ba6",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    },
+    "project_management_app": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "468946f578e467f63db4c3d007df62cfb84798ae",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    }
+}

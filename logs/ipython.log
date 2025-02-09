@@ -1,0 +1,57 @@
+2025-02-09 02:41:41,892 INFO ipython === bench console session ===
+2025-02-09 02:41:41,892 INFO ipython import frappe
+2025-02-09 02:41:41,892 INFO ipython frappe.get_hooks('override_whitelisted_methods')
+2025-02-09 02:41:41,892 INFO ipython === session end ===
+2025-02-09 05:54:56,851 INFO ipython === bench console session ===
+2025-02-09 05:54:56,854 INFO ipython import frappe
+2025-02-09 05:54:56,854 INFO ipython guest_role = frappe.get_doc("Role", "Guest")
+2025-02-09 05:54:56,854 INFO ipython doctype = "Task"
+2025-02-09 05:54:56,854 INFO ipython import frappe
+
+# Get the 'Guest' role
+guest_role = frappe.get_doc("Role", "Guest")
+
+# Get the "Task" DocType
+doctype = "Task"
+
+# Check if the role is assigned to permissions for Task
+if not frappe.get_all('Role Permission', filters={'role': guest_role.name, 'doctype': doctype}):
+    # Assign Create permission to Guest role for the Task DocType
+    permission = frappe.get_doc({
+        "doctype": "Role Permission",
+        "role": guest_role.name,
+        "doctype": doctype,
+        "create": 1,  # Grant Create permission
+        "read": 1,    # Grant Read permission
+        "write": 1,   # Grant Write permission
+        "delete": 1   # Grant Delete permission
+    })
+    permission.insert()
+
+    frappe.db.commit()  # Commit the changes to the database
+2025-02-09 05:54:56,854 INFO ipython if not frappe.get_all('Role Permission', filters={'role': guest_role.name, 'doctype': doctype}):
+    # Assign Create permission to Guest role for the Task DocType
+    permission = frappe.get_doc({
+        "doctype": "Role Permission",
+        "role": guest_role.name,
+        "doctype": doctype,
+        "create": 1,  # Grant Create permission
+        "read": 1,    # Grant Read permission
+        "write": 1,   # Grant Write permission
+        "delete": 1   # Grant Delete permission
+    })
+    permission.insert()
+    frappe.db.commit()
+    
+2025-02-09 05:54:56,854 INFO ipython from frappe.model.db_query import DatabaseQuery
+2025-02-09 05:54:56,855 INFO ipython ole_permission = frappe.get_doc({
+    'doctype': 'Role Permission Manager',
+    'role': 'Guest',
+    'doctype_or_table': 'Task',
+    'read': 1,  # Set the permissions as required
+    'write': 1,
+    'create': 1,
+    'delete': 1
+})
+role_permission.insert()
+2025-02-09 05:54:56,855 INFO ipython === session end ===

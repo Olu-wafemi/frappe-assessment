@@ -1,0 +1,3 @@
+frappe
+project_management_app
+frappe_test_app

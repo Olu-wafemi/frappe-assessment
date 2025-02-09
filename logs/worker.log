@@ -1,0 +1,895 @@
+2025-02-09 01:20:34,581 Worker rq:worker:d68fdb63be7a436d9c2bba5cea817d2e started with PID 42340, version 2.1.0
+2025-02-09 01:20:34,581 Subscribing to channel rq:pubsub:d68fdb63be7a436d9c2bba5cea817d2e
+2025-02-09 01:20:34,582 *** Listening on Users-effemm-Documents-frappe--frappe-test-bench:short, Users-effemm-Documents-frappe--frappe-test-bench:default, Users-effemm-Documents-frappe--frappe-test-bench:long...
+2025-02-09 01:20:34,583 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 01:20:34,585 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 01:20:34,586 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 01:34:04,776 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 01:34:04,793 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 01:34:04,795 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 01:38:23,890 Users-effemm-Documents-frappe--frappe-test-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.search.website_search.build_index_for_all_routes', kwargs={}, method=<function build_index_for_all_routes at 0x124348a60>, site='frappe.test', user='Administrator') (frappe.test||9d3d875a-f5d7-4622-8c43-be662796cc3e)
+2025-02-09 01:45:09,789 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 01:45:09,811 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 01:45:09,812 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 01:50:58,080 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User femio82@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='frappe.test', user='Administrator') (frappe.test||3fcaee47-be0c-4338-92ec-c98f67ab5a8c)
+2025-02-09 01:50:59,730 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User femio82@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='frappe.test', user='Administrator') job in 0:00:01.272556s on worker d68fdb63be7a436d9c2bba5cea817d2e
+2025-02-09 01:50:59,730 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||3fcaee47-be0c-4338-92ec-c98f67ab5a8c)
+2025-02-09 01:50:59,730 Result is kept for 600 seconds
+2025-02-09 01:50:59,745 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'femio82@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='frappe.test', user='Administrator') (frappe.test||2db2632c-b701-4a45-8c9a-969dca55ecf0)
+2025-02-09 01:51:00,597 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'femio82@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='frappe.test', user='Administrator') job in 0:00:00.804598s on worker d68fdb63be7a436d9c2bba5cea817d2e
+2025-02-09 01:51:00,597 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||2db2632c-b701-4a45-8c9a-969dca55ecf0)
+2025-02-09 01:51:00,597 Result is kept for 600 seconds
+2025-02-09 01:51:00,605 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User femio82@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='frappe.test', user='Administrator') (frappe.test||af71160b-7a5d-468c-b232-b4b787c16176)
+2025-02-09 01:51:01,460 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User femio82@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='frappe.test', user='Administrator') job in 0:00:00.682016s on worker d68fdb63be7a436d9c2bba5cea817d2e
+2025-02-09 01:51:01,460 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||af71160b-7a5d-468c-b232-b4b787c16176)
+2025-02-09 01:51:01,461 Result is kept for 600 seconds
+2025-02-09 01:51:01,469 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'femio82@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='frappe.test', user='Administrator') (frappe.test||9480a615-2dd7-4bc2-94f2-885ba48b7089)
+2025-02-09 01:51:02,114 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'femio82@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='frappe.test', user='Administrator') job in 0:00:00.628307s on worker d68fdb63be7a436d9c2bba5cea817d2e
+2025-02-09 01:51:02,115 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||9480a615-2dd7-4bc2-94f2-885ba48b7089)
+2025-02-09 01:51:02,118 Result is kept for 600 seconds
+2025-02-09 01:52:00,902 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjls666cor)
+2025-02-09 01:52:01,360 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.421632s on worker d68fdb63be7a436d9c2bba5cea817d2e
+2025-02-09 01:52:01,360 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjls666cor)
+2025-02-09 01:52:01,361 Result is kept for 600 seconds
+2025-02-09 01:52:01,368 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'jjljrvvl0q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjljrvvl0q)
+2025-02-09 01:52:01,607 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'jjljrvvl0q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.227191s on worker d68fdb63be7a436d9c2bba5cea817d2e
+2025-02-09 01:52:01,607 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjljrvvl0q)
+2025-02-09 01:52:01,607 Result is kept for 600 seconds
+2025-02-09 01:52:01,613 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jjl8sou0p5'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl8sou0p5)
+2025-02-09 01:52:01,952 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jjl8sou0p5'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.324154s on worker d68fdb63be7a436d9c2bba5cea817d2e
+2025-02-09 01:52:01,952 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl8sou0p5)
+2025-02-09 01:52:01,952 Result is kept for 600 seconds
+2025-02-09 01:52:01,965 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl39j0v8q)
+2025-02-09 01:52:02,773 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.794414s on worker d68fdb63be7a436d9c2bba5cea817d2e
+2025-02-09 01:52:02,774 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl39j0v8q)
+2025-02-09 01:52:02,774 Result is kept for 600 seconds
+2025-02-09 01:58:47,887 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 01:58:47,895 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 01:58:47,896 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 02:12:17,959 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 02:12:17,968 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 02:12:17,969 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 02:22:53,693 Worker d68fdb63be7a436d9c2bba5cea817d2e [PID 42340]: warm shut down requested
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/bench_helper.py", line 48, in invoke
+    return super().invoke(ctx)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/background_jobs.py", line 324, in start_worker
+    worker.work(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 645, in work
+    self.teardown()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1151, in teardown
+    self.register_death()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 898, in register_death
+    p.execute()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/client.py", line 1524, in execute
+    conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:11000. Connection refused.
+
+Error 61 connecting to 127.0.0.1:11000. Connection refused.
+2025-02-09 02:22:57,057 Worker rq:worker:41cabde29b324a918ab3fe72e69790e4 started with PID 6009, version 2.1.0
+2025-02-09 02:22:57,057 Subscribing to channel rq:pubsub:41cabde29b324a918ab3fe72e69790e4
+2025-02-09 02:22:57,059 *** Listening on Users-effemm-Documents-frappe--frappe-test-bench:short, Users-effemm-Documents-frappe--frappe-test-bench:default, Users-effemm-Documents-frappe--frappe-test-bench:long...
+2025-02-09 02:22:57,059 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 02:22:57,060 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 02:22:57,061 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 02:36:27,465 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 02:36:27,524 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 02:36:27,527 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 02:39:09,486 Worker 41cabde29b324a918ab3fe72e69790e4 [PID 6009]: warm shut down requested
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/bench_helper.py", line 48, in invoke
+    return super().invoke(ctx)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/background_jobs.py", line 324, in start_worker
+    worker.work(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 645, in work
+    self.teardown()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1151, in teardown
+    self.register_death()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 898, in register_death
+    p.execute()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/client.py", line 1524, in execute
+    conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:11000. Connection refused.
+
+Error 61 connecting to 127.0.0.1:11000. Connection refused.
+2025-02-09 02:39:15,459 Worker rq:worker:16878ea4e4514c838312e9c4e13787e8 started with PID 21953, version 2.1.0
+2025-02-09 02:39:15,459 Subscribing to channel rq:pubsub:16878ea4e4514c838312e9c4e13787e8
+2025-02-09 02:39:15,463 *** Listening on Users-effemm-Documents-frappe--frappe-test-bench:short, Users-effemm-Documents-frappe--frappe-test-bench:default, Users-effemm-Documents-frappe--frappe-test-bench:long...
+2025-02-09 02:39:15,464 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 02:39:15,468 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 02:39:15,470 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 02:40:01,799 Worker 16878ea4e4514c838312e9c4e13787e8 [PID 21953]: warm shut down requested
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/bench_helper.py", line 48, in invoke
+    return super().invoke(ctx)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/background_jobs.py", line 324, in start_worker
+    worker.work(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 645, in work
+    self.teardown()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1151, in teardown
+    self.register_death()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 898, in register_death
+    p.execute()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/client.py", line 1524, in execute
+    conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:11000. Connection refused.
+
+Error 61 connecting to 127.0.0.1:11000. Connection refused.
+2025-02-09 02:41:47,698 Worker rq:worker:96664a17bcf54304954ec91a5e8bcdff started with PID 24606, version 2.1.0
+2025-02-09 02:41:47,699 Subscribing to channel rq:pubsub:96664a17bcf54304954ec91a5e8bcdff
+2025-02-09 02:41:47,701 *** Listening on Users-effemm-Documents-frappe--frappe-test-bench:short, Users-effemm-Documents-frappe--frappe-test-bench:default, Users-effemm-Documents-frappe--frappe-test-bench:long...
+2025-02-09 02:41:47,701 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 02:41:47,704 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 02:41:47,705 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 02:55:18,196 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 02:55:18,228 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 02:55:18,230 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 03:08:48,445 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 03:08:48,455 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 03:08:48,457 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 03:22:18,606 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 03:22:18,622 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 03:22:18,623 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 03:35:48,773 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 03:35:48,782 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 03:35:48,784 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 03:49:18,842 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 03:49:18,850 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 03:49:18,852 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 03:59:43,255 Users-effemm-Documents-frappe--frappe-test-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.document.execute_action', kwargs={'__doctype': 'DocType', '__name': 'Goals', '__action': '_rename', 'name': ..., method='frappe.model.document.execute_action', site='frappe.test', user='Administrator') (frappe.test||e6190ced-fd71-43c3-9f6e-60245f170389)
+Traceback (most recent call last):
+  File "apps/frappe/frappe/model/document.py", line 1843, in execute_action
+    getattr(doc, __action)(**kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1176, in _rename
+    self.name = rename_doc(doc=self, new=name, merge=merge, force=force, validate=validate_rename)
+  File "apps/frappe/frappe/model/rename_doc.py", line 211, in rename_doc
+    new_doc.run_method("after_rename", old, new, merge)
+  File "apps/frappe/frappe/model/document.py", line 1095, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1483, in composer
+    return composed(self, method, *args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1461, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "apps/frappe/frappe/model/document.py", line 1092, in fn
+    return method_object(*args, **kwargs)
+  File "apps/frappe/frappe/core/doctype/doctype/doctype.py", line 666, in after_rename
+    frappe.db.rename_table(old, new)
+  File "apps/frappe/frappe/database/mariadb/database.py", line 261, in rename_table
+    return self.sql(f"RENAME TABLE `{old_name}` TO `{new_name}`")
+  File "apps/frappe/frappe/database/database.py", line 238, in sql
+    self._cursor.execute(query, values)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 825, in _read_query_result
+    result.read()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "env/lib/python3.10/site-packages/pymysql/protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1050, "Table 'tabTask' already exists")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/background_jobs.py", line 244, in execute_job
+    retval = method(**kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1853, in execute_action
+    doc.add_comment("Comment", _("Action Failed") + "<br><br>" + msg)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 32, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1573, in add_comment
+    return frappe.get_doc(
+  File "apps/frappe/frappe/model/document.py", line 123, in wrapper
+    return func(self, *args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 391, in insert
+    self._validate_links()
+  File "apps/frappe/frappe/model/document.py", line 1063, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg), frappe.LinkValidationError)
+  File "apps/frappe/frappe/__init__.py", line 610, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 571, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 522, in _raise_exception
+    raise exc
+frappe.exceptions.LinkValidationError: Could not find Reference Name: Goals
+
+2025-02-09 03:59:44,533 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 03:59:44,534 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 03:59:44,535 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 04:12:01,911 Worker 96664a17bcf54304954ec91a5e8bcdff [PID 24606]: warm shut down requested
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/bench_helper.py", line 48, in invoke
+    return super().invoke(ctx)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/background_jobs.py", line 324, in start_worker
+    worker.work(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 645, in work
+    self.teardown()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1151, in teardown
+    self.register_death()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 898, in register_death
+    p.execute()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/client.py", line 1524, in execute
+    conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:11000. Connection refused.
+
+Error 61 connecting to 127.0.0.1:11000. Connection refused.
+2025-02-09 04:19:46,913 Worker rq:worker:7f94322b1aed48b1834052c054f32749 started with PID 21249, version 2.1.0
+2025-02-09 04:19:46,913 Subscribing to channel rq:pubsub:7f94322b1aed48b1834052c054f32749
+2025-02-09 04:19:46,914 *** Listening on Users-effemm-Documents-frappe--frappe-test-bench:short, Users-effemm-Documents-frappe--frappe-test-bench:default, Users-effemm-Documents-frappe--frappe-test-bench:long...
+2025-02-09 04:19:46,915 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 04:19:46,917 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 04:19:46,918 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 04:23:42,957 Worker 7f94322b1aed48b1834052c054f32749 [PID 21249]: warm shut down requested
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/bench_helper.py", line 48, in invoke
+    return super().invoke(ctx)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/background_jobs.py", line 324, in start_worker
+    worker.work(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 645, in work
+    self.teardown()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1151, in teardown
+    self.register_death()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 898, in register_death
+    p.execute()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/client.py", line 1524, in execute
+    conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:11000. Connection refused.
+
+Error 61 connecting to 127.0.0.1:11000. Connection refused.
+2025-02-09 04:23:55,738 Worker rq:worker:8b12a83277e24301bb3457ae6188d1ee started with PID 25495, version 2.1.0
+2025-02-09 04:23:55,738 Subscribing to channel rq:pubsub:8b12a83277e24301bb3457ae6188d1ee
+2025-02-09 04:23:55,740 *** Listening on Users-effemm-Documents-frappe--frappe-test-bench:short, Users-effemm-Documents-frappe--frappe-test-bench:default, Users-effemm-Documents-frappe--frappe-test-bench:long...
+2025-02-09 04:23:55,740 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 04:23:55,742 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 04:23:55,743 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 04:37:25,997 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 04:37:26,039 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 04:37:26,041 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 04:37:27,553 Worker 8b12a83277e24301bb3457ae6188d1ee [PID 25495]: warm shut down requested
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 592, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/_parsers/hiredis.py", line 128, in read_response
+    self.read_from_socket()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/_parsers/hiredis.py", line 88, in read_from_socket
+    bufflen = self._sock.recv_into(self._buffer)
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/bench_helper.py", line 48, in invoke
+    return super().invoke(ctx)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/background_jobs.py", line 324, in start_worker
+    worker.work(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 645, in work
+    self.teardown()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1151, in teardown
+    self.register_death()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 898, in register_death
+    p.execute()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/client.py", line 1524, in execute
+    conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 369, in connect
+    self.on_connect()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 471, in on_connect
+    self.read_response()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 600, in read_response
+    raise ConnectionError(
+redis.exceptions.ConnectionError: Error while reading from 127.0.0.1:11000 : (54, 'Connection reset by peer')
+
+Error while reading from 127.0.0.1:11000 : (54, 'Connection reset by peer')
+2025-02-09 04:38:52,983 Worker rq:worker:6d297cf826c842e887b0bda72d6cca66 started with PID 40332, version 2.1.0
+2025-02-09 04:38:52,984 Subscribing to channel rq:pubsub:6d297cf826c842e887b0bda72d6cca66
+2025-02-09 04:38:52,984 *** Listening on Users-effemm-Documents-frappe--frappe-test-bench:short, Users-effemm-Documents-frappe--frappe-test-bench:default, Users-effemm-Documents-frappe--frappe-test-bench:long...
+2025-02-09 04:38:52,985 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 04:38:52,987 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 04:38:52,989 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 04:52:23,196 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 04:52:23,223 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 04:52:23,225 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 05:05:53,443 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 05:05:53,609 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 05:05:53,617 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 05:12:53,847 Worker 6d297cf826c842e887b0bda72d6cca66 [PID 40332]: warm shut down requested
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/bench_helper.py", line 48, in invoke
+    return super().invoke(ctx)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/background_jobs.py", line 324, in start_worker
+    worker.work(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 645, in work
+    self.teardown()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1151, in teardown
+    self.register_death()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 898, in register_death
+    p.execute()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/client.py", line 1524, in execute
+    conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:11000. Connection refused.
+
+Error 61 connecting to 127.0.0.1:11000. Connection refused.
+2025-02-09 05:12:57,979 Worker rq:worker:a0ac1b4baa014de6acd5b4f8fc5f21c8 started with PID 73728, version 2.1.0
+2025-02-09 05:12:57,979 Subscribing to channel rq:pubsub:a0ac1b4baa014de6acd5b4f8fc5f21c8
+2025-02-09 05:12:57,980 *** Listening on Users-effemm-Documents-frappe--frappe-test-bench:short, Users-effemm-Documents-frappe--frappe-test-bench:default, Users-effemm-Documents-frappe--frappe-test-bench:long...
+2025-02-09 05:12:57,980 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 05:12:57,982 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 05:12:57,983 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 05:21:00,886 Worker a0ac1b4baa014de6acd5b4f8fc5f21c8 [PID 73728]: warm shut down requested
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/bench_helper.py", line 48, in invoke
+    return super().invoke(ctx)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/background_jobs.py", line 324, in start_worker
+    worker.work(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 645, in work
+    self.teardown()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1151, in teardown
+    self.register_death()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 898, in register_death
+    p.execute()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/client.py", line 1524, in execute
+    conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:11000. Connection refused.
+
+Error 61 connecting to 127.0.0.1:11000. Connection refused.
+2025-02-09 05:21:04,516 Worker rq:worker:4f6d1d20536144958f2437229dda47bf started with PID 81543, version 2.1.0
+2025-02-09 05:21:04,516 Subscribing to channel rq:pubsub:4f6d1d20536144958f2437229dda47bf
+2025-02-09 05:21:04,517 *** Listening on Users-effemm-Documents-frappe--frappe-test-bench:short, Users-effemm-Documents-frappe--frappe-test-bench:default, Users-effemm-Documents-frappe--frappe-test-bench:long...
+2025-02-09 05:21:04,517 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 05:21:04,519 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 05:21:04,521 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 05:23:16,462 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Custom DocPerm', 'name': 'gjse0b48jv'}, method='frappe.model.delete_doc.delete_dynamic_links', site='frappe.test', user='Administrator') (frappe.test||780148e5-06b9-43e2-8ec8-c4b13780bafa)
+2025-02-09 05:23:16,913 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Custom DocPerm', 'name': 'gjse0b48jv'}, method='frappe.model.delete_doc.delete_dynamic_links', site='frappe.test', user='Administrator') job in 0:00:00.224593s on worker 4f6d1d20536144958f2437229dda47bf
+2025-02-09 05:23:16,913 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||780148e5-06b9-43e2-8ec8-c4b13780bafa)
+2025-02-09 05:23:16,913 Result is kept for 600 seconds
+2025-02-09 05:24:20,429 Worker 4f6d1d20536144958f2437229dda47bf [PID 81543]: warm shut down requested
+2025-02-09 05:24:20,455 Unsubscribing from channel rq:pubsub:4f6d1d20536144958f2437229dda47bf
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/bench_helper.py", line 48, in invoke
+    return super().invoke(ctx)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/background_jobs.py", line 324, in start_worker
+    worker.work(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 645, in work
+    self.teardown()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1152, in teardown
+    self.unsubscribe()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1059, in unsubscribe
+    self.pubsub.unsubscribe()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/client.py", line 982, in unsubscribe
+    return self.execute_command("UNSUBSCRIBE", *args)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/client.py", line 786, in execute_command
+    self.connection = self.connection_pool.get_connection(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:11000. Connection refused.
+
+Error 61 connecting to 127.0.0.1:11000. Connection refused.
+2025-02-09 05:24:24,807 Worker rq:worker:9aa00332ec0144a8bf6aa37a1a708f0a started with PID 84919, version 2.1.0
+2025-02-09 05:24:24,807 Subscribing to channel rq:pubsub:9aa00332ec0144a8bf6aa37a1a708f0a
+2025-02-09 05:24:24,808 *** Listening on Users-effemm-Documents-frappe--frappe-test-bench:short, Users-effemm-Documents-frappe--frappe-test-bench:default, Users-effemm-Documents-frappe--frappe-test-bench:long...
+2025-02-09 05:24:24,808 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 05:24:24,809 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 05:24:24,810 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 05:29:54,917 Worker 9aa00332ec0144a8bf6aa37a1a708f0a [PID 84919]: warm shut down requested
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/bench_helper.py", line 48, in invoke
+    return super().invoke(ctx)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/background_jobs.py", line 324, in start_worker
+    worker.work(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 645, in work
+    self.teardown()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1151, in teardown
+    self.register_death()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 898, in register_death
+    p.execute()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/client.py", line 1524, in execute
+    conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:11000. Connection refused.
+
+Error 61 connecting to 127.0.0.1:11000. Connection refused.
+2025-02-09 05:30:20,584 Worker rq:worker:2c24664dad5644e78acfa99d883a121a started with PID 90827, version 2.1.0
+2025-02-09 05:30:20,584 Subscribing to channel rq:pubsub:2c24664dad5644e78acfa99d883a121a
+2025-02-09 05:30:20,585 *** Listening on Users-effemm-Documents-frappe--frappe-test-bench:short, Users-effemm-Documents-frappe--frappe-test-bench:default, Users-effemm-Documents-frappe--frappe-test-bench:long...
+2025-02-09 05:30:20,586 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 05:30:20,589 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 05:30:20,590 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 05:43:50,952 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 05:43:51,159 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 05:43:51,164 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 05:43:55,526 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User femio82@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='frappe.test', user='Administrator') (frappe.test||daf65b0e-73e6-41f4-bb4a-0cbabe16c71f)
+2025-02-09 05:43:58,488 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User femio82@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='frappe.test', user='Administrator') job in 0:00:01.539461s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 05:43:58,488 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||daf65b0e-73e6-41f4-bb4a-0cbabe16c71f)
+2025-02-09 05:43:58,488 Result is kept for 600 seconds
+2025-02-09 05:43:58,499 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'femio82@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='frappe.test', user='Administrator') (frappe.test||0bb58991-0653-429b-927f-4240b71a648f)
+2025-02-09 05:43:59,346 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'femio82@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='frappe.test', user='Administrator') job in 0:00:00.816739s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 05:43:59,346 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||0bb58991-0653-429b-927f-4240b71a648f)
+2025-02-09 05:43:59,347 Result is kept for 600 seconds
+2025-02-09 05:44:07,423 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User femio82@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='frappe.test', user='Administrator') (frappe.test||9d05700d-1d4b-45e4-b97a-2e8e58512d22)
+2025-02-09 05:44:08,728 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User femio82@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='frappe.test', user='Administrator') job in 0:00:00.931055s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 05:44:08,728 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||9d05700d-1d4b-45e4-b97a-2e8e58512d22)
+2025-02-09 05:44:08,728 Result is kept for 600 seconds
+2025-02-09 05:44:08,734 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'femio82@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='frappe.test', user='Administrator') (frappe.test||4d951da4-3cf1-4f28-8ef9-f678c82e19f6)
+2025-02-09 05:44:09,766 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'femio82@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='frappe.test', user='Administrator') job in 0:00:01.021674s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 05:44:09,766 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||4d951da4-3cf1-4f28-8ef9-f678c82e19f6)
+2025-02-09 05:44:09,767 Result is kept for 600 seconds
+2025-02-09 05:44:50,113 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User Guest>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='frappe.test', user='Administrator') (frappe.test||af528d60-9fc7-4088-b58f-e6526aa350ec)
+2025-02-09 05:44:50,701 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User Guest>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='frappe.test', user='Administrator') job in 0:00:00.017950s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 05:44:50,701 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||af528d60-9fc7-4088-b58f-e6526aa350ec)
+2025-02-09 05:44:50,701 Result is kept for 600 seconds
+2025-02-09 05:46:59,141 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User Guest>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='frappe.test', user='Administrator') (frappe.test||9e4557e8-593a-46c6-9de7-ab8c4e50124a)
+2025-02-09 05:47:00,253 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User Guest>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='frappe.test', user='Administrator') job in 0:00:00.017298s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 05:47:00,254 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||9e4557e8-593a-46c6-9de7-ab8c4e50124a)
+2025-02-09 05:47:00,254 Result is kept for 600 seconds
+2025-02-09 05:47:26,822 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User Guest>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='frappe.test', user='Administrator') (frappe.test||37e5d803-546d-47f3-9d86-48ba7a0f5126)
+2025-02-09 05:47:27,183 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User Guest>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='frappe.test', user='Administrator') job in 0:00:00.014771s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 05:47:27,183 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||37e5d803-546d-47f3-9d86-48ba7a0f5126)
+2025-02-09 05:47:27,184 Result is kept for 600 seconds
+2025-02-09 05:54:13,044 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 05:54:13,102 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 05:54:13,118 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 06:04:34,600 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User femio82@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='frappe.test', user='Administrator') (frappe.test||7ede340a-84c9-456f-8e69-32f0dc31cc77)
+2025-02-09 06:04:36,324 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User femio82@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='frappe.test', user='Administrator') job in 0:00:01.053183s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:04:36,324 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||7ede340a-84c9-456f-8e69-32f0dc31cc77)
+2025-02-09 06:04:36,324 Result is kept for 600 seconds
+2025-02-09 06:04:36,329 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 06:04:36,331 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 06:04:36,332 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 06:04:36,337 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'femio82@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='frappe.test', user='Administrator') (frappe.test||dedcce79-f6ff-4da0-b69b-3607a4c45198)
+2025-02-09 06:04:37,322 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'femio82@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='frappe.test', user='Administrator') job in 0:00:00.953879s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:04:37,323 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||dedcce79-f6ff-4da0-b69b-3607a4c45198)
+2025-02-09 06:04:37,323 Result is kept for 600 seconds
+2025-02-09 06:18:07,511 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 06:18:07,557 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 06:18:07,563 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 06:24:00,890 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jjl8sou0p5'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl8sou0p5)
+2025-02-09 06:24:01,747 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jjl8sou0p5'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.636072s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:24:01,747 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl8sou0p5)
+2025-02-09 06:24:01,747 Result is kept for 600 seconds
+2025-02-09 06:24:01,753 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'jjljrvvl0q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjljrvvl0q)
+2025-02-09 06:24:01,995 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'jjljrvvl0q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.230446s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:24:01,995 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjljrvvl0q)
+2025-02-09 06:24:01,995 Result is kept for 600 seconds
+2025-02-09 06:28:02,813 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl39j0v8q)
+2025-02-09 06:28:07,356 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:04.258948s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:28:07,357 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl39j0v8q)
+2025-02-09 06:28:07,357 Result is kept for 600 seconds
+2025-02-09 06:28:07,396 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jjl8sou0p5'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl8sou0p5)
+2025-02-09 06:28:08,145 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jjl8sou0p5'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.657417s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:28:08,145 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl8sou0p5)
+2025-02-09 06:28:08,145 Result is kept for 600 seconds
+2025-02-09 06:28:08,150 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 06:28:08,152 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 06:28:08,153 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 06:28:08,156 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'jjljrvvl0q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjljrvvl0q)
+2025-02-09 06:28:08,409 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'jjljrvvl0q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.241621s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:28:08,410 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjljrvvl0q)
+2025-02-09 06:28:08,410 Result is kept for 600 seconds
+2025-02-09 06:32:02,561 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjljji69rk)
+2025-02-09 06:32:04,288 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:01.472599s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:32:04,291 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjljji69rk)
+2025-02-09 06:32:04,293 Result is kept for 600 seconds
+2025-02-09 06:32:04,354 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.core.doctype.prepared_report.prepared_report.expire_st..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjlii37sfq)
+2025-02-09 06:32:06,251 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.core.doctype.prepared_report.prepared_report.expire_st..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:01.731075s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:32:06,256 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjlii37sfq)
+2025-02-09 06:32:06,257 Result is kept for 600 seconds
+2025-02-09 06:32:06,473 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjll1ckkm6)
+2025-02-09 06:32:07,903 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:01.267681s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:32:07,904 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjll1ckkm6)
+2025-02-09 06:32:07,904 Result is kept for 600 seconds
+2025-02-09 06:32:07,979 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jjl8sou0p5'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl8sou0p5)
+2025-02-09 06:32:08,493 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jjl8sou0p5'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.484944s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:32:08,493 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl8sou0p5)
+2025-02-09 06:32:08,493 Result is kept for 600 seconds
+2025-02-09 06:32:08,501 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjlmnlbo2k)
+2025-02-09 06:32:08,817 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.303087s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:32:08,817 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjlmnlbo2k)
+2025-02-09 06:32:08,817 Result is kept for 600 seconds
+2025-02-09 06:32:08,829 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'jjljrvvl0q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjljrvvl0q)
+2025-02-09 06:32:09,207 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'jjljrvvl0q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.358725s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:32:09,207 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjljrvvl0q)
+2025-02-09 06:32:09,208 Result is kept for 600 seconds
+2025-02-09 06:32:09,214 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl6uf0a4u)
+2025-02-09 06:32:09,579 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.353857s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:32:09,580 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl6uf0a4u)
+2025-02-09 06:32:09,580 Result is kept for 600 seconds
+2025-02-09 06:32:09,586 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl8r9uva8)
+2025-02-09 06:32:10,309 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.706263s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:32:10,312 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl8r9uva8)
+2025-02-09 06:32:10,312 Result is kept for 600 seconds
+2025-02-09 06:32:10,322 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjls666cor)
+2025-02-09 06:32:10,662 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.306935s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:32:10,662 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjls666cor)
+2025-02-09 06:32:10,662 Result is kept for 600 seconds
+2025-02-09 06:32:10,670 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': 'jjlj..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjljrog4rq)
+2025-02-09 06:32:11,011 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': 'jjlj..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.324779s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:32:11,011 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjljrog4rq)
+2025-02-09 06:32:11,011 Result is kept for 600 seconds
+2025-02-09 06:32:11,017 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'jj..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl8cn5qgl)
+2025-02-09 06:32:13,186 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'jj..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:02.075847s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:32:13,188 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl8cn5qgl)
+2025-02-09 06:32:13,188 Result is kept for 600 seconds
+2025-02-09 06:32:13,341 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl39j0v8q)
+2025-02-09 06:32:14,126 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.566468s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:32:14,126 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl39j0v8q)
+2025-02-09 06:32:14,127 Result is kept for 600 seconds
+2025-02-09 06:36:08,214 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl39j0v8q)
+2025-02-09 06:36:09,632 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:01.186083s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:36:09,632 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl39j0v8q)
+2025-02-09 06:36:09,632 Result is kept for 600 seconds
+2025-02-09 06:36:09,644 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'jjljrvvl0q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjljrvvl0q)
+2025-02-09 06:36:10,536 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'jjljrvvl0q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.848522s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:36:10,538 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjljrvvl0q)
+2025-02-09 06:36:10,539 Result is kept for 600 seconds
+2025-02-09 06:36:10,558 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jjl8sou0p5'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl8sou0p5)
+2025-02-09 06:36:12,940 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jjl8sou0p5'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:02.292433s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:36:12,940 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl8sou0p5)
+2025-02-09 06:36:12,940 Result is kept for 600 seconds
+2025-02-09 06:40:00,768 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jjl8sou0p5'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl8sou0p5)
+2025-02-09 06:40:01,666 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jjl8sou0p5'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.804646s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:40:01,666 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl8sou0p5)
+2025-02-09 06:40:01,667 Result is kept for 600 seconds
+2025-02-09 06:40:01,672 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:short
+2025-02-09 06:40:01,674 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:default
+2025-02-09 06:40:01,675 Cleaning registries for queue: Users-effemm-Documents-frappe--frappe-test-bench:long
+2025-02-09 06:40:01,679 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl39j0v8q)
+2025-02-09 06:40:01,970 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.255435s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:40:01,970 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl39j0v8q)
+2025-02-09 06:40:01,970 Result is kept for 600 seconds
+2025-02-09 06:40:01,975 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjls666cor)
+2025-02-09 06:40:02,254 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.269454s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:40:02,255 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjls666cor)
+2025-02-09 06:40:02,255 Result is kept for 600 seconds
+2025-02-09 06:40:02,264 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'jjljrvvl0q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjljrvvl0q)
+2025-02-09 06:40:02,605 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'jjljrvvl0q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.331815s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:40:02,605 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjljrvvl0q)
+2025-02-09 06:40:02,605 Result is kept for 600 seconds
+2025-02-09 06:44:01,520 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'jjljrvvl0q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjljrvvl0q)
+2025-02-09 06:44:02,024 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'jjljrvvl0q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.422084s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:44:02,024 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjljrvvl0q)
+2025-02-09 06:44:02,024 Result is kept for 600 seconds
+2025-02-09 06:44:02,033 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jjl8sou0p5'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl8sou0p5)
+2025-02-09 06:44:02,398 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jjl8sou0p5'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.349005s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:44:02,398 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl8sou0p5)
+2025-02-09 06:44:02,398 Result is kept for 600 seconds
+2025-02-09 06:48:01,190 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jjl8sou0p5'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl8sou0p5)
+2025-02-09 06:48:02,004 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jjl8sou0p5'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.648188s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:48:02,004 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl8sou0p5)
+2025-02-09 06:48:02,004 Result is kept for 600 seconds
+2025-02-09 06:48:02,014 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl6uf0a4u)
+2025-02-09 06:48:02,273 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.247710s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:48:02,273 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl6uf0a4u)
+2025-02-09 06:48:02,273 Result is kept for 600 seconds
+2025-02-09 06:48:02,277 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl39j0v8q)
+2025-02-09 06:48:02,549 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.257684s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:48:02,549 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl39j0v8q)
+2025-02-09 06:48:02,550 Result is kept for 600 seconds
+2025-02-09 06:48:02,565 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjljji69rk)
+2025-02-09 06:48:02,937 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.352229s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:48:02,938 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjljji69rk)
+2025-02-09 06:48:02,938 Result is kept for 600 seconds
+2025-02-09 06:48:02,943 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl8r9uva8)
+2025-02-09 06:48:03,205 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.253793s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:48:03,205 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl8r9uva8)
+2025-02-09 06:48:03,205 Result is kept for 600 seconds
+2025-02-09 06:48:03,210 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjll1ckkm6)
+2025-02-09 06:48:03,428 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.206213s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:48:03,428 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjll1ckkm6)
+2025-02-09 06:48:03,428 Result is kept for 600 seconds
+2025-02-09 06:48:03,434 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': 'jjlj..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjljrog4rq)
+2025-02-09 06:48:03,975 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': 'jjlj..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.516613s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:48:03,975 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjljrog4rq)
+2025-02-09 06:48:03,976 Result is kept for 600 seconds
+2025-02-09 06:48:03,986 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'jj..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjl8cn5qgl)
+2025-02-09 06:48:04,937 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'jj..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.891310s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:48:04,938 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjl8cn5qgl)
+2025-02-09 06:48:04,938 Result is kept for 600 seconds
+2025-02-09 06:48:04,950 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjlmnlbo2k)
+2025-02-09 06:48:05,898 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.908600s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:48:05,899 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjlmnlbo2k)
+2025-02-09 06:48:05,899 Result is kept for 600 seconds
+2025-02-09 06:48:05,914 Users-effemm-Documents-frappe--frappe-test-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'jjljrvvl0q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') (frappe.test||scheduled_job||jjljrvvl0q)
+2025-02-09 06:48:06,374 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'jjljrvvl0q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='frappe.test', user='Administrator') job in 0:00:00.411648s on worker 2c24664dad5644e78acfa99d883a121a
+2025-02-09 06:48:06,374 Users-effemm-Documents-frappe--frappe-test-bench:default: Job OK (frappe.test||scheduled_job||jjljrvvl0q)
+2025-02-09 06:48:06,375 Result is kept for 600 seconds
+2025-02-09 06:49:05,875 Worker 2c24664dad5644e78acfa99d883a121a [PID 90827]: warm shut down requested
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/bench_helper.py", line 48, in invoke
+    return super().invoke(ctx)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe/frappe/utils/background_jobs.py", line 324, in start_worker
+    worker.work(
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 645, in work
+    self.teardown()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1151, in teardown
+    self.register_death()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/rq/worker.py", line 898, in register_death
+    p.execute()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/client.py", line 1524, in execute
+    conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/effemm/Documents/frappe-/frappe-test-bench/env/lib/python3.10/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:11000. Connection refused.
+
+Error 61 connecting to 127.0.0.1:11000. Connection refused.

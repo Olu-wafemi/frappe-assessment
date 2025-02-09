@@ -1,0 +1,168 @@
+2025-02-09 01:15:09,357 DEBUG cd frappe-test-bench && python3 -m venv env
+2025-02-09 01:15:14,323 DEBUG cd frappe-test-bench && /Users/effemm/Documents/frappe-/frappe-test-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-02-09 01:15:17,365 DEBUG cd frappe-test-bench && /Users/effemm/Documents/frappe-/frappe-test-bench/env/bin/python -m pip install --quiet wheel
+2025-02-09 01:15:18,422 LOG Getting frappe
+2025-02-09 01:15:18,422 DEBUG cd frappe-test-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2025-02-09 01:15:27,875 LOG Installing frappe
+2025-02-09 01:15:27,883 DEBUG cd /Users/effemm/Documents/frappe-/frappe-test-bench && /Users/effemm/Documents/frappe-/frappe-test-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe 
+2025-02-09 01:16:25,055 DEBUG cd /Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe && yarn install --check-files
+2025-02-09 01:16:36,459 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-02-09 01:16:36,460 DEBUG cd frappe-test-bench && bench build
+2025-02-09 01:16:36,743 INFO /Users/effemm/Library/Python/3.10/bin/bench build
+2025-02-09 01:17:10,406 LOG setting up backups
+2025-02-09 01:17:10,444 LOG backups were set up
+2025-02-09 01:17:10,445 INFO Bench frappe-test-bench initialized
+2025-02-09 01:17:45,490 INFO /Users/effemm/Library/Python/3.10/bin/bench start
+2025-02-09 01:19:34,675 INFO /Users/effemm/Library/Python/3.10/bin/bench start
+2025-02-09 01:20:32,789 INFO /Users/effemm/Library/Python/3.10/bin/bench start
+2025-02-09 01:20:33,293 INFO /Users/effemm/Library/Python/3.10/bin/bench watch
+2025-02-09 01:20:33,309 INFO /Users/effemm/Library/Python/3.10/bin/bench schedule
+2025-02-09 01:20:33,309 INFO /Users/effemm/Library/Python/3.10/bin/bench worker
+2025-02-09 01:20:33,342 INFO /Users/effemm/Library/Python/3.10/bin/bench serve --port 8000
+2025-02-09 01:21:14,257 INFO /Users/effemm/Library/Python/3.10/bin/bench new-app frappe-test-app
+2025-02-09 01:21:14,263 LOG creating new app frappe_test_app
+2025-02-09 01:21:44,627 LOG Installing frappe_test_app
+2025-02-09 01:21:44,632 DEBUG cd /Users/effemm/Documents/frappe-/frappe-test-bench && /Users/effemm/Documents/frappe-/frappe-test-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe_test_app 
+2025-02-09 01:21:47,504 DEBUG bench build --app frappe_test_app
+2025-02-09 01:21:47,656 INFO /Users/effemm/Library/Python/3.10/bin/bench build --app frappe_test_app
+2025-02-09 01:21:50,575 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-02-09 01:22:43,969 INFO /Users/effemm/Library/Python/3.10/bin/bench new-site frappe.test
+2025-02-09 01:22:59,499 INFO /Users/effemm/Library/Python/3.10/bin/bench new-site frappe.test
+2025-02-09 01:23:05,100 INFO /Users/effemm/Library/Python/3.10/bin/bench new-site frappe.test --force
+2025-02-09 01:23:21,400 INFO /Users/effemm/Library/Python/3.10/bin/bench new-site frappe.test --force
+2025-02-09 01:23:41,349 INFO /Users/effemm/Library/Python/3.10/bin/bench new-site frappe.test --force
+2025-02-09 01:23:56,274 INFO /Users/effemm/Library/Python/3.10/bin/bench new-site frappe.test --force
+2025-02-09 01:24:15,699 INFO /Users/effemm/Library/Python/3.10/bin/bench new-site frappe.test --force
+2025-02-09 01:29:08,151 INFO /Users/effemm/Library/Python/3.10/bin/bench new-site frappe.test --force
+2025-02-09 01:30:44,446 INFO /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test add-to-hosts
+2025-02-09 01:34:31,059 INFO /Users/effemm/Library/Python/3.10/bin/bench new-site frappe.test --force
+2025-02-09 01:34:50,807 INFO /Users/effemm/Library/Python/3.10/bin/bench new-site frappe.test --force
+2025-02-09 01:37:00,251 INFO /Users/effemm/Library/Python/3.10/bin/bench update
+2025-02-09 01:37:01,827 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2025-02-09 01:37:14,227 DEBUG cd /Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe && git fetch upstream --unshallow
+2025-02-09 01:37:58,285 LOG pulling frappe
+2025-02-09 01:37:58,287 DEBUG cd /Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe && git pull  upstream develop
+2025-02-09 01:38:00,137 DEBUG cd /Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe && find . -name "*.pyc" -delete
+2025-02-09 01:38:00,517 DEBUG cd /Users/effemm/Documents/frappe-/frappe-test-bench && /Users/effemm/Documents/frappe-/frappe-test-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-02-09 01:38:01,832 LOG Installing frappe
+2025-02-09 01:38:01,832 DEBUG cd /Users/effemm/Documents/frappe-/frappe-test-bench && /Users/effemm/Documents/frappe-/frappe-test-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe 
+2025-02-09 01:38:05,171 DEBUG cd /Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe && yarn install --check-files
+2025-02-09 01:38:08,253 LOG Installing frappe_test_app
+2025-02-09 01:38:08,254 DEBUG cd /Users/effemm/Documents/frappe-/frappe-test-bench && /Users/effemm/Documents/frappe-/frappe-test-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/effemm/Documents/frappe-/frappe-test-bench/apps/frappe_test_app 
+2025-02-09 01:39:13,746 INFO /Users/effemm/Library/Python/3.10/bin/bench migrate
+2025-02-09 01:42:44,114 INFO /Users/effemm/Library/Python/3.10/bin/bench new-site frappe.test --force
+2025-02-09 01:44:34,553 INFO /Users/effemm/Library/Python/3.10/bin/bench set-config enable_scheduler 1
+2025-02-09 01:45:28,532 INFO /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test enable-scheduler
+2025-02-09 01:45:35,832 INFO /Users/effemm/Library/Python/3.10/bin/bench console
+2025-02-09 01:45:51,103 INFO /Users/effemm/Library/Python/3.10/bin/bench new-site frappe.test --force
+2025-02-09 01:47:51,014 INFO /Users/effemm/Library/Python/3.10/bin/bench add-user
+2025-02-09 01:48:03,970 INFO /Users/effemm/Library/Python/3.10/bin/bench add-user femio82@gmail.com
+2025-02-09 01:48:23,024 INFO /Users/effemm/Library/Python/3.10/bin/bench add-user frappe.test femio82@gmail.com
+2025-02-09 01:48:54,455 INFO /Users/effemm/Library/Python/3.10/bin/bench add-user femio82@gmail.com --site frappe.test
+2025-02-09 01:49:08,996 INFO /Users/effemm/Library/Python/3.10/bin/bench add-user --help
+2025-02-09 01:49:41,182 INFO /Users/effemm/Library/Python/3.10/bin/bench add-user femio82@gmail.com
+2025-02-09 01:49:58,181 INFO /Users/effemm/Library/Python/3.10/bin/bench add-user femio82@gmail.com --site frappe.tes
+2025-02-09 01:50:01,294 INFO /Users/effemm/Library/Python/3.10/bin/bench add-user femio82@gmail.com --site frappe.test
+2025-02-09 01:50:17,024 INFO /Users/effemm/Library/Python/3.10/bin/bench add-user --site frappe.test femio82@gmail.com
+2025-02-09 01:50:56,693 INFO /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test add-user femio82@gmail.com
+2025-02-09 01:57:04,104 INFO /Users/effemm/Library/Python/3.10/bin/bench set-config -g developer_mode true
+2025-02-09 02:15:12,114 INFO /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test install-app frappe.test
+2025-02-09 02:16:11,022 INFO /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test install-app frappe_test_app
+2025-02-09 02:17:39,970 INFO /Users/effemm/Library/Python/3.10/bin/bench list-apps
+2025-02-09 02:22:55,933 INFO /Users/effemm/Library/Python/3.10/bin/bench start
+2025-02-09 02:22:56,362 INFO /Users/effemm/Library/Python/3.10/bin/bench watch
+2025-02-09 02:22:56,370 INFO /Users/effemm/Library/Python/3.10/bin/bench worker
+2025-02-09 02:22:56,370 INFO /Users/effemm/Library/Python/3.10/bin/bench serve --port 8000
+2025-02-09 02:22:56,371 INFO /Users/effemm/Library/Python/3.10/bin/bench schedule
+2025-02-09 02:33:06,637 INFO /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test logs
+2025-02-09 02:33:11,311 INFO /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test logs
+2025-02-09 02:39:12,043 INFO /Users/effemm/Library/Python/3.10/bin/bench start
+2025-02-09 02:39:12,858 INFO /Users/effemm/Library/Python/3.10/bin/bench serve --port 8000
+2025-02-09 02:39:12,863 INFO /Users/effemm/Library/Python/3.10/bin/bench watch
+2025-02-09 02:39:12,864 INFO /Users/effemm/Library/Python/3.10/bin/bench worker
+2025-02-09 02:39:12,867 INFO /Users/effemm/Library/Python/3.10/bin/bench schedule
+2025-02-09 02:40:04,716 INFO /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test clear-cache
+2025-02-09 02:40:11,608 INFO /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test clear-cache
+2025-02-09 02:40:21,104 INFO /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test restart
+2025-02-09 02:40:21,107 WARNING /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test restart executed with exit code 2
+2025-02-09 02:40:31,729 INFO /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test restart
+2025-02-09 02:40:31,732 WARNING /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test restart executed with exit code 2
+2025-02-09 02:40:37,895 INFO /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test console
+2025-02-09 02:41:45,160 INFO /Users/effemm/Library/Python/3.10/bin/bench start
+2025-02-09 02:41:45,939 INFO /Users/effemm/Library/Python/3.10/bin/bench watch
+2025-02-09 02:41:45,939 INFO /Users/effemm/Library/Python/3.10/bin/bench serve --port 8000
+2025-02-09 02:41:45,955 INFO /Users/effemm/Library/Python/3.10/bin/bench schedule
+2025-02-09 02:41:45,961 INFO /Users/effemm/Library/Python/3.10/bin/bench worker
+2025-02-09 02:47:32,692 INFO /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test:8000 clear-cache
+2025-02-09 02:47:41,465 INFO /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test clear-cache
+2025-02-09 02:47:53,671 INFO /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test restart
+2025-02-09 02:47:53,674 WARNING /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test restart executed with exit code 2
+2025-02-09 02:48:21,713 INFO /Users/effemm/Library/Python/3.10/bin/bench list-sites
+2025-02-09 04:07:21,690 INFO /Users/effemm/Library/Python/3.10/bin/bench new-app project-management-app
+2025-02-09 04:07:21,702 LOG creating new app project_management_app
+2025-02-09 04:07:55,254 LOG Installing project_management_app
+2025-02-09 04:07:55,262 DEBUG cd /Users/effemm/Documents/frappe-/frappe-test-bench && /Users/effemm/Documents/frappe-/frappe-test-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/effemm/Documents/frappe-/frappe-test-bench/apps/project_management_app 
+2025-02-09 04:08:00,219 DEBUG bench build --app project_management_app
+2025-02-09 04:08:00,733 INFO /Users/effemm/Library/Python/3.10/bin/bench build --app project_management_app
+2025-02-09 04:08:03,632 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-02-09 04:19:45,459 INFO /Users/effemm/Library/Python/3.10/bin/bench start
+2025-02-09 04:19:46,120 INFO /Users/effemm/Library/Python/3.10/bin/bench worker
+2025-02-09 04:19:46,120 INFO /Users/effemm/Library/Python/3.10/bin/bench schedule
+2025-02-09 04:19:46,121 INFO /Users/effemm/Library/Python/3.10/bin/bench watch
+2025-02-09 04:19:46,130 INFO /Users/effemm/Library/Python/3.10/bin/bench serve --port 8000
+2025-02-09 04:21:39,840 INFO /Users/effemm/Library/Python/3.10/bin/bench new-site project-management
+2025-02-09 04:23:01,347 INFO /Users/effemm/Library/Python/3.10/bin/bench --site project-management install-app project_management_app
+2025-02-09 04:23:27,596 INFO /Users/effemm/Library/Python/3.10/bin/bench --site project-management list-apps
+2025-02-09 04:23:50,400 INFO /Users/effemm/Library/Python/3.10/bin/bench restart
+2025-02-09 04:23:50,418 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-02-09 04:23:54,327 INFO /Users/effemm/Library/Python/3.10/bin/bench start
+2025-02-09 04:23:54,776 INFO /Users/effemm/Library/Python/3.10/bin/bench serve --port 8000
+2025-02-09 04:23:54,781 INFO /Users/effemm/Library/Python/3.10/bin/bench worker
+2025-02-09 04:23:54,794 INFO /Users/effemm/Library/Python/3.10/bin/bench schedule
+2025-02-09 04:23:54,803 INFO /Users/effemm/Library/Python/3.10/bin/bench watch
+2025-02-09 04:25:03,756 INFO /Users/effemm/Library/Python/3.10/bin/bench --site project-management add-to-hosts
+2025-02-09 04:37:31,164 INFO /Users/effemm/Library/Python/3.10/bin/bench --site project-management list-apps
+2025-02-09 04:38:51,586 INFO /Users/effemm/Library/Python/3.10/bin/bench start
+2025-02-09 04:38:52,098 INFO /Users/effemm/Library/Python/3.10/bin/bench watch
+2025-02-09 04:38:52,108 INFO /Users/effemm/Library/Python/3.10/bin/bench serve --port 8000
+2025-02-09 04:38:52,122 INFO /Users/effemm/Library/Python/3.10/bin/bench worker
+2025-02-09 04:38:52,122 INFO /Users/effemm/Library/Python/3.10/bin/bench schedule
+2025-02-09 05:12:56,078 INFO /Users/effemm/Library/Python/3.10/bin/bench start
+2025-02-09 05:12:56,642 INFO /Users/effemm/Library/Python/3.10/bin/bench serve --port 8000
+2025-02-09 05:12:56,644 INFO /Users/effemm/Library/Python/3.10/bin/bench schedule
+2025-02-09 05:12:56,645 INFO /Users/effemm/Library/Python/3.10/bin/bench watch
+2025-02-09 05:12:56,645 INFO /Users/effemm/Library/Python/3.10/bin/bench worker
+2025-02-09 05:21:02,837 INFO /Users/effemm/Library/Python/3.10/bin/bench start
+2025-02-09 05:21:03,463 INFO /Users/effemm/Library/Python/3.10/bin/bench schedule
+2025-02-09 05:21:03,465 INFO /Users/effemm/Library/Python/3.10/bin/bench watch
+2025-02-09 05:21:03,466 INFO /Users/effemm/Library/Python/3.10/bin/bench serve --port 8000
+2025-02-09 05:21:03,477 INFO /Users/effemm/Library/Python/3.10/bin/bench worker
+2025-02-09 05:24:23,377 INFO /Users/effemm/Library/Python/3.10/bin/bench start
+2025-02-09 05:24:23,882 INFO /Users/effemm/Library/Python/3.10/bin/bench serve --port 8000
+2025-02-09 05:24:23,887 INFO /Users/effemm/Library/Python/3.10/bin/bench watch
+2025-02-09 05:24:23,889 INFO /Users/effemm/Library/Python/3.10/bin/bench schedule
+2025-02-09 05:24:23,891 INFO /Users/effemm/Library/Python/3.10/bin/bench worker
+2025-02-09 05:29:56,899 INFO /Users/effemm/Library/Python/3.10/bin/bench clear-cache
+2025-02-09 05:30:07,476 INFO /Users/effemm/Library/Python/3.10/bin/bench clear-cache frappe.test
+2025-02-09 05:30:15,604 INFO /Users/effemm/Library/Python/3.10/bin/bench clear-cache
+2025-02-09 05:30:19,172 INFO /Users/effemm/Library/Python/3.10/bin/bench start
+2025-02-09 05:30:19,647 INFO /Users/effemm/Library/Python/3.10/bin/bench serve --port 8000
+2025-02-09 05:30:19,655 INFO /Users/effemm/Library/Python/3.10/bin/bench watch
+2025-02-09 05:30:19,665 INFO /Users/effemm/Library/Python/3.10/bin/bench worker
+2025-02-09 05:30:19,668 INFO /Users/effemm/Library/Python/3.10/bin/bench schedule
+2025-02-09 05:31:09,942 INFO /Users/effemm/Library/Python/3.10/bin/bench console
+2025-02-09 05:32:16,848 INFO /Users/effemm/Library/Python/3.10/bin/bench console --site frappe.test
+2025-02-09 05:32:30,135 INFO /Users/effemm/Library/Python/3.10/bin/bench console frappe.test
+2025-02-09 05:33:46,254 INFO /Users/effemm/Library/Python/3.10/bin/bench console
+2025-02-09 05:33:59,680 INFO /Users/effemm/Library/Python/3.10/bin/bench console --help
+2025-02-09 05:34:13,878 INFO /Users/effemm/Library/Python/3.10/bin/bench console
+2025-02-09 05:34:31,595 INFO /Users/effemm/Library/Python/3.10/bin/bench console --site
+2025-02-09 05:34:44,310 INFO /Users/effemm/Library/Python/3.10/bin/bench --site frappe.local console
+2025-02-09 05:34:51,708 INFO /Users/effemm/Library/Python/3.10/bin/bench --site frappe.test console
+2025-02-09 06:00:02,344 INFO /Users/effemm/Library/Python/3.10/bin/bench --verbose --site all backup
