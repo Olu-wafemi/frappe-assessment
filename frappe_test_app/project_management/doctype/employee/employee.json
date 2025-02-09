@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "autoincrement",
+ "creation": "2025-02-09 03:39:20.831922",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_name",
+  "email",
+  "phone",
+  "department",
+  "role",
+  "assigned_goals"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "employee_name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "email"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "phone"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "role",
+   "fieldtype": "Data",
+   "label": "role"
+  },
+  {
+   "fieldname": "assigned_goals",
+   "fieldtype": "Link",
+   "label": "assigned_goals",
+   "options": "Project"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-09 04:01:31.258011",
+ "modified_by": "Administrator",
+ "module": "Project Management",
+ "name": "Employee",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

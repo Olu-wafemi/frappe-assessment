@@ -245,3 +245,42 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# API Endpoints
+
+app_include_js = "/assets/frappe_test_app/js/task.js"
+
+api_routes = {
+    # Task routes
+    "/api/method/frappe_test_app.api.task.create_task": "POST",
+    "/api/method/frappe_test_app.api.task.get_task": "GET",
+    "/api/method/frappe_test_app.api.task.update_task": "PUT",
+    "/api/method/frappe_test_app.api.task.delete_task": "DELETE",
+
+    # Project routes
+    "/api/method/frappe_test_app.api.project.create_project": "POST",
+    "/api/method/frappe_test_app.api.project.get_projects": "GET",
+    "/api/method/frappe_test_app.api.project.get_project_by_id": "GET",
+    "/api/method/frappe_test_app.api.project.update_project": "PUT",
+    "/api/method/frappe_test_app.api.project.delete_project": "DELETE",
+
+    # Employee routes
+    "/api/method/frappe_test_app.api.employee.create_employee": "POST",
+    "/api/method/frappe_test_app.api.employee.get_employees": "GET",
+    "/api/method/frappe_test_app.api.employee.get_employee_by_id": "GET",
+    "/api/method/frappe_test_app.api.employee.update_employee": "PUT",
+    "/api/method/frappe_test_app.api.employee.delete_employee": "DELETE",
+
+    # Department routes
+    "/api/method/frappe_test_app.api.department.create_department": "POST",
+    "/api/method/frappe_test_app.api.department.get_departments": "GET",
+    "/api/method/frappe_test_app.api.department.get_department_by_id": "GET",
+    "/api/method/frappe_test_app.api.department.update_department": "PUT",
+    "/api/method/frappe_test_app.api.department.delete_department": "DELETE",
+
+    # Client routes
+    "/api/method/frappe_test_app.api.client.create_client": "POST",
+    "/api/method/frappe_test_app.api.client.get_clients": "GET",
+    "/api/method/frappe_test_app.api.client.get_client_by_id": "GET",
+    "/api/method/frappe_test_app.api.client.update_client": "PUT",
+    "/api/method/frappe_test_app.api.client.delete_client": "DELETE",
+}
